@@ -40,9 +40,3 @@ for file_name in zip_file.namelist():
 # 关闭压缩文件
 zip_file.close()
 new_zip_file.close()
-
-# 删除原始压缩文件
-# os.remove('作业测试班-作业上传入口(word).zip')
-
-# 将新的压缩文件重命名为原始压缩文件的名称
-# os.rename('new.zip', '作业测试班-作业上传入口(word).zip')
